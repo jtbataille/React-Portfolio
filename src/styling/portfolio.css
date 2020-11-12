@@ -19,6 +19,8 @@ h3 {
     height: 500px;
     width: 100%;
     object-fit: scale-down;
+    border: 2px solid #676767;
+    padding: 5px;
 }
 
 .carousel-inner img {
@@ -39,4 +41,9 @@ h3 {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+}
+
+.card img {
+    border: 2px solid #676767;
+    padding: 5px;
 }
