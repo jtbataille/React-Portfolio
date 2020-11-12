@@ -1,5 +1,18 @@
 import React from 'react';
 
+import DogDays from '../imgs/DogDays.png';
+import palateProwler from '../imgs/palateProwler.png';
+import codeFillerImg from '../imgs/codeFillerImg.png';
+import workoutApp from '../animations/workoutApp.gif';
+import burger from '../animations/burger.gif';
+import employeeTracker from '../animations/employeeTracker.mov';
+import schedule from '../animations/schedule.gif';
+import weatherDash from '../animations/weatherDash.mov';
+import teamWeb from '../animations/teamWeb.mov';
+import noteTakerApp from '../animations/noteTakerApp.mov';
+import readmeGen from '../animations/readmeGen.gif';
+import passwordGen from '../animations/passwordGen.mov';
+
 
 
 const Portfolio = () => {
@@ -15,7 +28,7 @@ const Portfolio = () => {
                 </ol>
                 <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img className="d-block img-responsive" src="images/DogDays.png" alt="First slide" />
+                    <img className="d-block img-responsive" src={DogDays} alt="First slide" />
                     <div className="carousel-caption d-md-block">
                         <div className="layer">
                             <h5 className="text-dark">Dog Days, Inc.</h5>
@@ -31,7 +44,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-responsive" src="images/palateProwler.png" alt="Second slide" />
+                    <img className="d-block img-responsive" src={palateProwler} alt="Second slide" />
                     <div className="carousel-caption d-md-block">
                         <div className="layer">
                             <h5 className="text-dark">Palate Prowler</h5>
@@ -47,7 +60,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-responsive" src="images/codeFillerImg.png" alt="Third slide" />
+                    <img className="d-block img-responsive" src={codeFillerImg} alt="Third slide" />
                     <div className="carousel-caption d-md-block">
                         <div className="layer">
                             <h5 className="text-dark">Project 3</h5>
@@ -90,7 +103,7 @@ const Portfolio = () => {
                 <div id="collapseOne" className="collapse show" aria-labelledby="workoutTracker" data-parent="#accordionExample">
                 <div className="card-body text-center">
                     <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Workout Tracker</span></h5>
-                    <img src="animations/workoutApp.gif" alt="GIF of burger app" style={{width:"50%", height:"50%"}} />
+                    <img src={workoutApp} alt="GIF of burger app" style={{width:"50%", height:"50%"}} />
                     <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This workout tracker application allows users to create and track daily workouts while logging multiple exercises per workout on any given day, enabling users to track the names, types, weights, sets, reps, and durations of their exercises.</span></p>
                     <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> MongoDB, Mongoose, Morgan, JavaScript, HTML, CSS, Heroku</span></p>
                     <a href="https://github.com/jtbataille/Workout-Tracker">
@@ -114,7 +127,7 @@ const Portfolio = () => {
                 <div id="collapseTwo" className="collapse" aria-labelledby="burgerApp" data-parent="#accordionExample">
                 <div className="card-body text-center">
                     <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Eat-Da-Burger!</span></h5>
-                    <img src="animations/burger.gif" alt="GIF of burger app" style={{width:"50%", height:"50%"}} />
+                    <img src={burger} alt="GIF of burger app" style={{width:"50%", height:"50%"}} />
                     <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This Node application uses an MVC model along with Handlebarsjs, Express.js, and ORM so that users may create a burger and *devour* it with the click of a button!</span></p>
                     <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> MySQL, JavaScript, Handlebarsjs, Express.js, Node.js, ORM, Heroku</span></p>
                     <a href="https://github.com/jtbataille/burger">
@@ -139,7 +152,7 @@ const Portfolio = () => {
                     <div className="card-body text-center">
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Employee Tracker</span></h5>
                         <video width="50%" height="50%" controls>
-                            <source src="animations/employee-tracker-demo.mov" alt="Video of Employee Tracker" />
+                            <source src={employeeTracker} alt="Video of Employee Tracker" />
                             Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This CLI application will allow users to view all employees, rolls, and departments within their own companies using a MySQL database. Users can also add to and update these records at will!</span></p>
@@ -165,7 +178,7 @@ const Portfolio = () => {
                 <div id="collapseFour" className="collapse" aria-labelledby="dayPlannerApp" data-parent="#accordionExample">
                     <div className="card-body text-center">
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Day-To-Day Planner</span></h5>
-                        <img src="animations/schedule.gif" alt="GIF of Day-To-Day Planner" style={{width:"50%", height:"50%"}} />
+                        <img src={schedule} alt="GIF of Day-To-Day Planner" style={{width:"50%", height:"50%"}} />
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This application allows users to plan out their days, saving input to Local Storage so that users can leave the page and come back to double-check. The application is also color-coded so that users can see at a glance what times have passed and what's coming up!</span></p>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> HTML5, CSS3, JavaScript, Moment.js</span></p>
                         <a href="https://github.com/jtbataille/Day-to-Day-Planner">
@@ -190,7 +203,7 @@ const Portfolio = () => {
                     <div className="card-body text-center">
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Weather Dashboard</span></h5>
                         <video width="50%" height="50%" controls>
-                            <source src="animations/weatherDash.mov" alt="Video of Weather Dashboard" />
+                            <source src={weatherDash} alt="Video of Weather Dashboard" />
                             Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> With this application, users will be able to check weather anywhere around the world, saving their searches to Local Storage so that they may access them later!</span></p>
@@ -217,7 +230,7 @@ const Portfolio = () => {
                     <div className="card-body text-center">
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Team Website Generator</span></h5>
                         <video width="50%" height="50%" controls>
-                            <source src="animations/teamWeb.mov" alt="Video of Team Website Generator" />
+                            <source src={teamWeb} alt="Video of Team Website Generator" />
                             Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> A CLI-based application used to create a website based on user-input of a workplace team so that duties, contact information, and job assignment can be clear for all who wish to see!</span></p>
@@ -244,7 +257,7 @@ const Portfolio = () => {
                     <div className="card-body text-center">
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Note-Taker Application</span></h5>
                         <video width="50%" height="50%" controls>
-                            <source src="animations/noteTakerApp.mov" alt="Video of Note-Taker App" />
+                            <source src={noteTakerApp} alt="Video of Note-Taker App" />
                             Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This application allows users to take, save, and review notes for reminders, recipes, tips and tricks, or anything else one might nneed to remember!</span></p>
@@ -269,7 +282,7 @@ const Portfolio = () => {
                 <div id="collapseEight" className="collapse" aria-labelledby="readmeApp" data-parent="#accordionExample">
                     <div className="card-body text-center">
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>README Generator</span></h5>
-                        <img src="animations/readmeGen.gif" alt="GIF of README Generator" style={{width:"50%", height:"50%"}} />
+                        <img src={readmeGen} alt="GIF of README Generator" style={{width:"50%", height:"50%"}} />
                         <p className="mt-3"><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This CLI-based application can be used to auto-generate a README.md file for users who just need to pump these out for all of their application building! The generated README.md file will contain the following sections: title, license banner, description, table of contents, installation, usage, license, contributors, tests, and contacts information</span></p>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> Node.js, JavaScript, Inquirer</span></p>
                         <a href="https://github.com/jtbataille/README-Generator">
@@ -294,7 +307,7 @@ const Portfolio = () => {
                     <div className="card-body text-center">
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Password Generator</span></h5>
                         <video width="50%" height="50%" controls>
-                            <source src="animations/passwordGen.mov" alt="Video of Weather Dashboard" />
+                            <source src={passwordGen} alt="Video of Weather Dashboard" />
                             Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This application will generate a complex password based on user-specified parameters such as which characters to include and length.</span></p>
