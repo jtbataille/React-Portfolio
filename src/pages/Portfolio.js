@@ -346,13 +346,16 @@ const Portfolio = () => (
                                 <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"99%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style={{width:"80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Handlebars</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style={{width:"90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">React</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style={{width:"85%"}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style={{width:"80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Handlebars</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style={{width:"90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">jQuery</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style={{width:"95%"}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                            </div>
+                            <div className="progress m-2" style={{height:"30px"}}>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style={{width:"90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">jQuery</div>
                             </div>
                         </div>
                     </div>

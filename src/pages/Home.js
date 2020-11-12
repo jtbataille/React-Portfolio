@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styling/home.css';
+
 import Me from '../imgs/me.jpg';
 import jtbLogo from '../animations/jtbLogo.gif';
 
