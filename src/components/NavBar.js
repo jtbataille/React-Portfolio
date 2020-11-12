@@ -17,7 +17,7 @@ function NavBar() {
                         <Link className={location.pathname === "/" ? "nav-link active" : "nav-link"} to="/">About</Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} to="#">Portfolio</Link>
+                        <Link className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
                         <Link className={location.pathname === "/viewCV" ? "nav-link active" : "nav-link"} to="https://drive.google.com/file/d/1JYsNFGGtNC_NqGv24FG_Y1mJtWWlFAj_/view?usp=sharing">View CV</Link>

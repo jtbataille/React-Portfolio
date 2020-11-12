@@ -2,7 +2,7 @@ import React from 'react';
 
 import Me from '../imgs/me.jpg';
 
-const Home = () => {
+const Home = () => (
     <>
         <div className="content">
             
@@ -32,6 +32,6 @@ const Home = () => {
             </div>
         </div>
     </>
-}
+);
 
 export default Home;

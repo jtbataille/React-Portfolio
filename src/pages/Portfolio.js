@@ -15,7 +15,7 @@ import passwordGen from '../animations/passwordGen.mov';
 
 
 
-const Portfolio = () => {
+const Portfolio = () => (
     <>
         <div className="container myCarousel">
             <h3>Team Applications</h3>
@@ -69,7 +69,7 @@ const Portfolio = () => {
                             <a href="https://github.com/jtbataille">
                                 <i className="fa fa-github fa-fw fa-lg"></i>
                             </a>
-                            <span className="ml-3"><a href="#">
+                            <span className="ml-3"><a href="/portfolio">
                                 <i className="fa fa-laptop fa-lg"></i>
                             </a></span>
                         </div>
@@ -436,6 +436,6 @@ const Portfolio = () => {
             </div>
         </div>
     </>
-}
+);
 
 export default Portfolio;

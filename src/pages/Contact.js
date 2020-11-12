@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Contact = () => {
+const Contact = () => (
     <>
         <h5 className="text-center pt-2 pb-2">Contact Me Here</h5>
 
@@ -33,6 +33,6 @@ const Contact = () => {
             </div>
         </form>
     </>
-}
+);
 
 export default Contact;
