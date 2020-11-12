@@ -13,7 +13,7 @@ This website will allow curious voyeurs to view more information about me includ
 
 Visitors to my site will arrive at the Home page with a short description of myself, but they may navigate to my Portfolio proper (with a view at some of my applications--with links to their repositories as well as their deployed sites if applicable), to my ```View CV``` page which will redirect visitors to a Google PDF of my CV, as well as a Contact page to submit a form for any questions or opportunities!
 
-Moreover, don't forget to check out the **Footer** as it houses icon-links to my LinkedIn, GitHub, Twitter, and a MailTo option to email me directly!
+Moreover, don't forget to check out the **Footer** as it houses icon-links to my LinkedIn, GitHub, Twitter, and a ```MailTo``` option to email me directly!
 
 ## Viewing
 My portfolio website is deployed on [GitHub Pages](#) if you wish to read more about me as well as view some of the many projects and applications I have built solo or in conjunction with other coders!
@@ -22,7 +22,7 @@ My portfolio website is deployed on [GitHub Pages](#) if you wish to read more a
 Node JS, JavaScript, HTML, CSS, JSX, React, Bootstrap, Font Awesome, React-DOM, React-Router-DOM
 
 ## Application Demo
-Upon accessing my website at the [GitHub Pages](#) link above, visitors will see my homepage displayed as such:
+Upon accessing my website at [GitHub Pages](#), visitors will see my homepage displayed as such:
 
 ![startPage](src/imgs/homePage.png)
 
