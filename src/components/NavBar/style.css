@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #3a1105 !important;
+    padding-bottom: 20px !important;
+}
+
+nav a {
+    color: #fadc7a !important;
+}
+
+.nav-item {
+    border: 2px solid transparent !important;
+}
+
+.nav-item:hover {
+    text-decoration: none !important;
+    border-bottom: 2px solid #fadc7a !important;
+    transition: 0.5s ease !important;
+    transform: scale(1.1) !important;
+}
+
+nav {
+    font-family: 'Orbitron', sans-serif;
+}

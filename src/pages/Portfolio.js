@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styling/portfolio.css';
+
 import DogDays from '../imgs/DogDays.png';
 import palateProwler from '../imgs/palateProwler.png';
 import codeFillerImg from '../imgs/codeFillerImg.png';

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styling/contact.css';
+
 const Contact = () => (
     <>
         <h5 className="text-center pt-2 pb-2">Contact Me Here</h5>
@@ -28,7 +30,7 @@ const Contact = () => (
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please write me a message!"></textarea>
             </div>
             <div className="text-center">
-                <button type="submit" className="btn btn-outline-secondary">Submit</button>
+                <button type="submit" className="btn btn-outline-secondary mr-4">Submit</button>
                 <input className="btn btn-outline-secondary" type="reset" value="Reset" />
             </div>
         </form>

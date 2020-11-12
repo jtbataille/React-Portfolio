@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Me from '../imgs/me.jpg';
-// import jtbLogo from '../animations/jtbLogo.gif';
+import jtbLogo from '../animations/jtbLogo.gif';
 
 const Home = () => (
     <>  
@@ -16,7 +16,7 @@ const Home = () => (
                 <h1 className="display-4 pb-3">A bit about me . . .</h1>
                 <div className="row">
                     <div className="col-md-4">
-                        <img src={require('../animations/jtbLogo.gif')} alt="GIF of logo" width="95%" height="85%" />
+                        <img src={jtbLogo} alt="GIF of logo" width="95%" height="85%" />
                     </div>
 
                     <div className="col-md-8">
