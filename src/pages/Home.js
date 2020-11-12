@@ -7,7 +7,7 @@ const Home = () => (
     <>  
         <div className="jumbotron text-center">
             <h1>Jarrod Bataille</h1>
-            <h3> {Me} </h3>
+            <img src={Me} alt="pic of me" />
         </div>
 
         {/* Tentative introduction regrading me and my coding "history" */}
