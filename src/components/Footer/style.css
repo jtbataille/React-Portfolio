@@ -8,6 +8,10 @@ footer {
     background-color: #424246 !important;
 }
 
+small {
+    padding-left: 25px;
+}
+
 .copyright {
     left: 0 !important;
     text-align: left !important;
@@ -19,7 +23,7 @@ footer {
 ul.social-network {
     list-style: none;
     display: inline;
-    padding: 0;
+    padding-right: 25px;
 }
   
 ul.social-network li {
