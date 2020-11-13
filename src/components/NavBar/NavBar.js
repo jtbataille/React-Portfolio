@@ -22,7 +22,7 @@ function NavBar() {
                         <Link className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className={location.pathname === "/viewCV" ? "nav-link active" : "nav-link"} to="https://drive.google.com/file/d/1JYsNFGGtNC_NqGv24FG_Y1mJtWWlFAj_/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV</Link>
+                        <a className={location.pathname === "/viewCV" ? "nav-link active" : "nav-link"} href="https://drive.google.com/file/d/1JYsNFGGtNC_NqGv24FG_Y1mJtWWlFAj_/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV</a>
                     </li>
                     <li className="nav-item">
                         <Link className={location.pathname === "/contact" ? "nav-link active" : "nav-link"} to="/contact">Contact</Link>

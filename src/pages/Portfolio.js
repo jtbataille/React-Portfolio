@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../styling/portfolio.css';
+// import BootstrapCarousel from '../components/BootstrapCarousel';
 
 import DogDays from '../imgs/DogDays.png';
 import palateProwler from '../imgs/palateProwler.png';
@@ -88,6 +89,8 @@ const Portfolio = () => (
                 </a>
             </div>
         </div>
+
+        {/* <BootstrapCarousel /> */}
 
         <h3>Solo Applications</h3>
 
