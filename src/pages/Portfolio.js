@@ -1,11 +1,10 @@
 import React from 'react';
 
 import '../styling/portfolio.css';
-// import BootstrapCarousel from '../components/BootstrapCarousel';
 
 import DogDays from '../imgs/DogDays.png';
 import palateProwler from '../imgs/palateProwler.png';
-import codeFillerImg from '../imgs/codeFillerImg.png';
+import jamEZ from '../imgs/jamEZ.png';
 import workoutApp from '../animations/workoutApp.gif';
 import burger from '../animations/burger.gif';
 import employeeTracker from '../animations/employeeTracker.mov';
@@ -63,16 +62,16 @@ const Portfolio = () => (
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-responsive" src={codeFillerImg} alt="Third slide" />
+                    <img className="d-block img-responsive" src={jamEZ} alt="Third slide" />
                     <div className="carousel-caption d-md-block">
                         <div className="layer">
-                            <h5 className="text-dark">Project 3</h5>
-                            <p className="text-dark">This application will most likely solve all the world's problems, but I must build it first!</p>
-                            <p className="text-dark">Technologies: This project is a work in progress!</p>
-                            <a href="https://github.com/jtbataille">
+                            <h5 className="text-dark">jamEZ</h5>
+                            <p className="text-dark">This app allows users to browse, listen, and explore with Spotify's Web API as well as creating playlist to listen to favorite songs!</p>
+                            <p className="text-dark">Technologies: MongoDB, Mongoose, React, React-H5-Audio-Player, JSX</p>
+                            <a href="https://github.com/jtbataille/jamEZ">
                                 <i className="fa fa-github fa-fw fa-lg"></i>
                             </a>
-                            <span className="ml-3"><a href="/portfolio">
+                            <span className="ml-3"><a href="https://jamez.herokuapp.com/">
                                 <i className="fa fa-laptop fa-lg"></i>
                             </a></span>
                         </div>
@@ -158,7 +157,7 @@ const Portfolio = () => (
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Employee Tracker</span></h5>
                         <video width="50%" height="50%" controls>
                             <source src={employeeTracker} alt="Video of Employee Tracker" />
-                            Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            Your browser does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This CLI application will allow users to view all employees, rolls, and departments within their own companies using a MySQL database. Users can also add to and update these records at will!</span></p>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> MySQL, JavaScript, Inquirer, CLI, Console</span></p>
@@ -209,7 +208,7 @@ const Portfolio = () => (
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Weather Dashboard</span></h5>
                         <video width="50%" height="50%" controls>
                             <source src={weatherDash} alt="Video of Weather Dashboard" />
-                            Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            Your browser does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> With this application, users will be able to check weather anywhere around the world, saving their searches to Local Storage so that they may access them later!</span></p>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> HTML5, CSS3, JavaScript, APIs</span></p>
@@ -236,7 +235,7 @@ const Portfolio = () => (
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Team Website Generator</span></h5>
                         <video width="50%" height="50%" controls>
                             <source src={teamWeb} alt="Video of Team Website Generator" />
-                            Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            Your browser does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> A CLI-based application used to create a website based on user-input of a workplace team so that duties, contact information, and job assignment can be clear for all who wish to see!</span></p>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> HTML5, CSS3, JavaScript, CLI, Node.js, Inquirer, Jest</span></p>
@@ -263,7 +262,7 @@ const Portfolio = () => (
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Note-Taker Application</span></h5>
                         <video width="50%" height="50%" controls>
                             <source src={noteTakerApp} alt="Video of Note-Taker App" />
-                            Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            Your browser does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This application allows users to take, save, and review notes for reminders, recipes, tips and tricks, or anything else one might nneed to remember!</span></p>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> HTML5, CSS3, JavaScript, Express.js, Heroku</span></p>
@@ -313,7 +312,7 @@ const Portfolio = () => (
                         <h5><span style={{fontFamily:"'IBM Plex Sans',sans-serif", fontWeight:"bold", fontSize:"24px"}}>Password Generator</span></h5>
                         <video width="50%" height="50%" controls>
                             <source src={passwordGen} alt="Video of Weather Dashboard" />
-                            Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            Your browser does nont support the video tag. Please see my GitHub to view the application's video!
                         </video>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Description:</span> This application will generate a complex password based on user-specified parameters such as which characters to include and length.</span></p>
                         <p><span style={{fontFamily:"'IBM Plex Sans',sans-serif"}}><span style={{textDecoration:"underline", fontWeight:"bold"}}>Technologies Used:</span> HTML5, CSS3, JavaScript</span></p>
@@ -346,19 +345,19 @@ const Portfolio = () => (
                                 <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">CSS3</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"99%"}} aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style={{width:"90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">React</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">React</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style={{width:"80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Handlebars</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Handlebars</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style={{width:"95%"}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style={{width:"90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">jQuery</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">jQuery</div>
                             </div>
                         </div>
                     </div>
@@ -369,22 +368,22 @@ const Portfolio = () => (
                         <h5 className="card-header text-center text-light">Back-End</h5>
                         <div className="card-body">
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{width:"80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Node.js</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Node.js</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style={{width:"85%"}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Express.js</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Express.js</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">MySQL</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">MySQL</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style={{width:"75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Sequelize ORM</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Sequelize ORM</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style={{width:"35%"}} aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">MongoDB</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">MongoDB</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style={{width:"30%"}} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">Mongoose</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Mongoose</div>
                             </div>
                         </div>
                     </div>
@@ -395,13 +394,13 @@ const Portfolio = () => (
                         <h5 className="card-header text-center text-light">Design</h5>
                         <div className="card-body">
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{width:"45%"}} aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">Graphic Design</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Graphic Design</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style={{width:"50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"35%"}} aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">Illustrator</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Illustrator</div>
                             </div>
                         </div>
                     </div>
@@ -418,25 +417,25 @@ const Portfolio = () => (
                                 <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Mac OS</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Windows OS</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Windows OS</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
                                 <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Microsoft Office</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style={{width:"98%"}} aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">GitHub</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">GitHub</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style={{width:"95%"}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Spanish</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Spanish</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style={{width:"95%"}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Italian</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Italian</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{width:"85%"}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">French</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">French</div>
                             </div>
                             <div className="progress m-2" style={{height:"30px"}}>
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style={{width:"60%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">German</div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">German</div>
                             </div>
                         </div>
                     </div>
